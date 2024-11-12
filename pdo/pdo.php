@@ -57,7 +57,7 @@ try {
     // $connection->exec($createTableSQL);
     // echo "tabel  berhasil dibuat." . PHP_EOL;
 
-    $connection->exec("INSERT INTO comments(email, comment) VALUES('nafa@test.com', 'halo')");
+    $connection->exec("INSERT INTO comments(email, comment) VALUES('hasya@test.com', 'halo')");
     $id = $connection->lastInsertId();
 
     var_dump($id);
